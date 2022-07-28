@@ -19,7 +19,7 @@ export function About() {
             risus viverra mattis. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Donec a ex quis sapien laoreet eleifend.
           </p>
-          <button className="bg-red-100 p-2   rounded-xl pr-5 pl-5 text-white rounded-sm mt-10 font-segoe font-bold">
+          <button className="bg-red-100 p-2  pr-5 pl-5 text-white rounded-xl mt-10 font-segoe font-bold">
             Saiba mais
           </button>
         </div>
