@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 export function Contact() {
   return (
-    <div className="container m-auto text-center">
+    <div className="container m-auto text-center mt-20">
       <div className="mb-5">
         <h2 className="font-camaro text-5xl text-black-100 mb-2">
           Fale conosco
@@ -68,7 +68,7 @@ export function Contact() {
             id=""
             cols={30}
             className="bg-[#F1F1F1BD] w-full h-full mt-2 p-2 rounded-xl mb-2"
-          ></textarea>
+          />
         </div>
 
         <button className="bg-red-100 p-2   rounded-xl pr-5 pl-5 text-white rounded-sm float-right">

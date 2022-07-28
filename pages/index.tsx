@@ -5,6 +5,7 @@ import { About } from "../components/About";
 import Banner from "../components/Banner";
 import { Contact } from "../components/Contact";
 import Footer from "../components/Footer";
+import Space from "../components/Space";
 import Team from "../components/Team";
 
 export const DynamicComponentWithNoSSR = dynamic(
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <Banner />
       <About />
       <Team />
+      <Space />
       <Contact />
       <Footer />
     </>
