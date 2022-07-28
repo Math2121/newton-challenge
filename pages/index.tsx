@@ -17,7 +17,7 @@ export const DynamicComponentWithNoSSR = dynamic(
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className="overflow-y-hidden">
       <section className="container m-auto p-2">
         <DynamicComponentWithNoSSR />
       </section>
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <Space />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 

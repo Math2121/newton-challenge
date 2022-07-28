@@ -17,28 +17,28 @@ function Menu() {
           <ul className="hidden md:flex space-x-6">
             <li className=" pl-4">
               <Link href="/">
-                <a className="link"> Quem Somos</a>
+                <a className="link font-segoe"> Quem Somos</a>
               </Link>
             </li>
             <li className="  pl-4">
               <Link href="/sobre">
-                <a className="link">Equipe</a>
+                <a className="link font-segoe">Equipe</a>
               </Link>
             </li>
 
             <li className="  pl-4">
               <Link href="/autores">
-                <a className="link">Espaço</a>
+                <a className="link font-segoe">Espaço</a>
               </Link>
             </li>
             <li className="  pl-4">
               <Link href="/">
-                <a className="link">Contato</a>
+                <a className="link font-segoe">Contato</a>
               </Link>
             </li>
             <li className="  pl-4">
               <Link href="/">
-                <a className="link">
+                <a className="link font-segoe">
                   <img src="/search.svg" alt="" />
                 </a>
               </Link>
@@ -63,29 +63,29 @@ function Menu() {
             }`}
           >
             <ul className="bg-[#F1F1F1BD] shadow-lg leading-9 font-bold h-screen">
-              <li className="border-b-2 border-white hover:bg-[#639948] hover:text-white pl-4">
-                <Link href="/" className="block pl-7">
+              <li className="border-b-2 border-white  pl-4">
+                <Link href="/" className="block pl-7 font-segoe">
                   Quem Somos
                 </Link>
               </li>
-              <li className="border-b-2 border-white hover:bg-[#639948] hover:text-white pl-4">
-                <Link href="/sobre" className="block pl-7">
+              <li className="border-b-2 border-white  pl-4">
+                <Link href="/sobre" className="block pl-7 font-segoe">
                   Equipe
                 </Link>
               </li>
 
-              <li className="border-b-2 border-white hover:bg-[#639948] hover:text-white pl-4">
-                <Link href="/autores" className="block pl-7">
+              <li className="border-b-2 border-white  pl-4">
+                <Link href="/autores" className="block pl-7 font-segoe">
                   Autores
                 </Link>
               </li>
-              <li className="border-b-2 border-white hover:bg-[#639948] hover:text-white pl-4">
-                <Link href="/" className="block pl-7">
+              <li className="border-b-2 border-white  pl-4">
+                <Link href="/" className="block pl-7 font-segoe">
                   Espaço
                 </Link>
               </li>
-              <li className="border-b-2 border-white hover:bg-[#639948] hover:text-white pl-4">
-                <Link href="/" className="block pl-7">
+              <li className="border-b-2 border-white   pl-4">
+                <Link href="/" className="block pl-7 font-segoe">
                   Contato
                 </Link>
               </li>
