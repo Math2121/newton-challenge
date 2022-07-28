@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <div className="container m-auto mt-2">
+    <div className="container m-auto mt-8">
       <div className="flex items-center gap-8 flex-col sm:flex-row">
         <img src="picture1.png" alt="" className="w-full h-full object-cover" />
 

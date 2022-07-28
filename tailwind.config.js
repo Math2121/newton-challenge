@@ -11,16 +11,16 @@ module.exports = {
       },
       fontFamily: {
         segoe: ["Segoe"],
-        camaro: ["Camaro","sans-serif"],
+        camaro: ["Camaro", "sans-serif"],
       },
       colors: {
         gray: {
           100: "#A56A59",
-          200:"#F3F3F3",
-          300:"#FAFAFA"
+          200: "#F3F3F3",
+          300: "#FAFAFA",
         },
-        red:{
-          100:'#E42313'
+        red: {
+          100: "#E42313",
         },
         black: {
           100: "#575756",
