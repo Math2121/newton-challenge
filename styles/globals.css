@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+
+@font-face {
+  font-family: "Camaro";
+  src: url("../fonts/CamaroSans.otf") format("otf");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url("../fonts/SegoeUI.woff") format("woff");
+}
+@tailwind utilities;
+
